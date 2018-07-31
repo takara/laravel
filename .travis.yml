@@ -4,6 +4,6 @@ php:
 
 before_script:
   - cp .env.example .env
-  - artisan key:generate
+  - php artisan key:generate
 
 script: phpunit
