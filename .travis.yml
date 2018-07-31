@@ -3,5 +3,7 @@ php:
   - 7.0
 
 before_script:
+  - cp .env.example .env
+  - artisan key:generate
 
 script: phpunit
