@@ -11,7 +11,10 @@
 |
 */
 
+/*
 Route::get('/', function () {
     Log::debug("aaa");
     return view('welcome');
 });
+ */
+Route::get('/', 'Controller@index');
